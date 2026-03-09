@@ -25,8 +25,8 @@ Cette application est un chatbot intelligent qui utilise le **Model Router** de 
 
 1. **Cloner le repo**
    ```bash
-   git clone <url-du-repo>
-   cd App
+   git clone https://github.com/fchambon/ai-foundry-modelrouter-app.git
+   cd ai-foundry-modelrouter-app
    ```
 
 2. **Créer un environnement virtuel**
