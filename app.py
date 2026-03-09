@@ -58,34 +58,3 @@ foundry_model_router_chatbot = gr.ChatInterface(
 if __name__ == "__main__":
     foundry_model_router_chatbot.launch(theme=gr.themes.Citrus())
 
-
-
-
-
-
-
-
-#WORKING CODE
-
-# response = client.chat.completions.create(
-#     messages=[
-#         {
-#             "role": "system",
-#             "content": "You are a helpful assistant.",
-#         },
-#         {
-#             "role": "user",
-#             "content": "Agis comme un comité d’experts pluridisciplinaires. Examine un scénario hypothétique où une IA autonome prend des décisions ayant des impacts humains irréversibles. Tâches :- formuler plusieurs cadres d’interprétation possibles du scénario- analyser les tensions entre efficacité, responsabilité et justice- expliciter les hypothèses implicites derrière chaque position- discuter les limites, incertitudes et zones grises- proposer des principes de gouvernance plutôt que des solutions finales. Contraintes :- raisonnement nuancé et non conclusif- positions contradictoires présentées équitablement- explicitation des limites du raisonnement- structure claire avec sections- minimum 1000 mots- ton prudent et réflexif",
-#         }
-#     ],
-#     max_tokens=8192,
-#     temperature=0.7,
-#     top_p=0.95,
-#     frequency_penalty=0.0,
-#     presence_penalty=0.0,
-#     model=deployment_name
-# )
-
-# print("Model chosen by the router: ", response.model)
-# print(response.choices[0].message.content)
-
