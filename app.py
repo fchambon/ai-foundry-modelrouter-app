@@ -56,5 +56,5 @@ foundry_model_router_chatbot = gr.ChatInterface(
 
 # Lancement de l'interface
 if __name__ == "__main__":
-    foundry_model_router_chatbot.launch(theme=gr.themes.Citrus())
+    foundry_model_router_chatbot.launch(server_name="0.0.0.0", server_port=7860, theme=gr.themes.Citrus())
 
